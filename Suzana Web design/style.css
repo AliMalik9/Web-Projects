@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font: 16px/1.618 montserrat;
+  color: #333;
+  overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background: #bfa6ad;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background: rgb(255, 95, 95);
+    background-image: url(image6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background: #54313a4e;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+}
+#text{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    /* background-color: #be9ba5; */
+    transform: translate(0, -50%);
+}
+#text>h1{
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 5rem;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+#small-img{
+    height: 400px;
+    width: 300px;
+    background: #000;
+    background-image: url(pexels-joão-paulo-de-souza-oliveira-2876771.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    right: -48%;
+    top: -8%;
+    /* z-index: -5; */
+    /* width: 100%;
+    background: brown; */
+}
+#vertical-text>h1{
+   font-size: 4rem;
+   font-weight: 900;
+   text-transform: uppercase;
+   letter-spacing: 0.6rem;
+   color: transparent;
+   -webkit-text-stroke: 2px;
+   -webkit-text-stroke-color: white;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    left: 8%;
+    top: 5%;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    font-family: aquire;
+    color: white;
+}
